@@ -1,12 +1,12 @@
 <?php
 
    require "condb.php";
- //   $sql="SELECT * FROM hocsinh";
- //   $result=mysqli_query($conn,$sql);
- //   if(!$result){
- //     die('Lỗi'.mysql_error($conn));
+   $sql="SELECT * FROM hocsinh";
+   $result=mysqli_query($conn,$sql);
+   if(!$result){
+     die('Lỗi'.mysql_error($conn));
 
- // }
+ }
 ?>
 <?php 
   if(isset($_POST['them'])){
