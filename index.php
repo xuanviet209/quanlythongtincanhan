@@ -19,7 +19,7 @@
 <body>
 <div class="container">
   <h1 align="center">Quản lý thông tin cá nhân</h1>
-	<table class="table">
+    <table class="table table-hover table-inverse">
         <tr>
         	<th>Username</th>
         	<th>Email</th>
